@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="20dp"
+    android:id="@+id/card_lay"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/iv_recipe"
+            android:src="@drawable/ic_default"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            tools:text="Recipe"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/name_tv"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"/>
+
+
+    </FrameLayout>
+
+</android.support.design.card.MaterialCardView>
